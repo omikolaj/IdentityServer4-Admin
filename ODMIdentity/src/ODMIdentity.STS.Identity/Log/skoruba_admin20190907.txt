@@ -1,0 +1,12 @@
+2019-09-07 13:24:48.571 -04:00 [ERR] Unknown client or not enabled: js
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"js","redirect_uri":"http://localhost:5003/callback.html","response_type":"code","scope":"openid profile","state":"2edc1fac78074a548041bc0fee01a56d","code_challenge":"43wZIXzZrThuwnmecvGWBXbSv49vxG7PFcDSdM_Ltzk","code_challenge_method":"S256","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2019-09-07 13:24:48.637 -04:00 [ERR] Request validation failed
+2019-09-07 13:25:14.253 -04:00 [ERR] Client secret validation failed for client: ODMIdentityUIAdmin.
+2019-09-07 13:25:54.850 -04:00 [ERR] Client secret validation failed for client: ODMIdentityUIAdmin.
+2019-09-07 13:26:56.153 -04:00 [ERR] Client secret validation failed for client: ODMIdentityUIAdmin.
+2019-09-07 13:27:03.106 -04:00 [ERR] Client secret validation failed for client: ODMIdentityUIAdmin.
+2019-09-07 13:27:32.830 -04:00 [ERR] Client secret validation failed for client: ODMIdentityUIAdmin.
+2019-09-07 13:29:06.617 -04:00 [ERR] Client secret validation failed for client: ODMIdentityUIAdmin.
+2019-09-07 13:34:58.819 -04:00 [ERR] Unknown client or not enabled: js
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"b8d8f22b-5236-4d94-8db0-71e6a680ff6b","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"js","redirect_uri":"http://localhost:5003/callback.html","response_type":"code","scope":"openid profile","state":"685d581d3a284bac8aae778c96a7a85b","code_challenge":"xb0DtAUvovmilJVPMz9UhhrJeV2tIoQYaZLOTA54E0Q","code_challenge_method":"S256","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2019-09-07 13:34:58.884 -04:00 [ERR] Request validation failed
