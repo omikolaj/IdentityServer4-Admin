@@ -31,7 +31,7 @@ namespace ODMIdentity.Admin.Configuration.IdentityServer
 
                     ClientSecrets = new List<Secret>
                     {
-                        new Secret(configuration[KeyVaultConsts.AdminUIClientSecret].ToSha256())
+                        new Secret(configuration[KeyVaultConsts.AdminUIClientSecret]?.ToSha256() ?? adminConfiguration.ClientSecret.ToSha256())
                     },
 
                     RedirectUris = { $"{adminConfiguration.IdentityAdminBaseUrl}/signin-oidc"},
