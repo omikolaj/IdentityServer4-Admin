@@ -48,7 +48,7 @@ namespace ODMIdentity.Admin
             services.AddDbContexts<AdminIdentityDbContext, IdentityServerConfigurationDbContext, IdentityServerPersistedGrantDbContext, AdminLogDbContext>(HostingEnvironment, Configuration);
 
             // Add Asp.Net Core Identity Configuration and OpenIdConnect auth as well
-            services.AddAuthenticationServices<AdminIdentityDbContext, UserIdentity, UserIdentityRole>(HostingEnvironment, rootConfiguration.AdminConfiguration);
+            services.AddAuthenticationServices<AdminIdentityDbContext, UserIdentity, UserIdentityRole>(HostingEnvironment, rootConfiguration.AdminConfiguration, Configuration);
             
             // Add exception filters in MVC
             services.AddMvcExceptionFilters();

@@ -444,7 +444,7 @@ namespace ODMIdentity.Admin.Helpers
                         // For production use - set RequireHttpsMetadata to true!
                         options.RequireHttpsMetadata = false;
                         options.ClientId = adminConfiguration.ClientId;
-                        options.ClientSecret = configuration[KeyVaultConsts.AdminUIClientSecret];
+                        options.ClientSecret = configuration[KeyVaultConsts.AdminUIClientSecret] ?? adminConfiguration.ClientSecret;
                         options.ResponseType = adminConfiguration.OidcResponseType;                       
 
                         options.Scope.Clear();
