@@ -1,4 +1,0 @@
-ODM-Identity 
-
-adminClientId = ODMIdentityUIAdmin
-adminnClientSecret = eK{Q2.im.=DpDt7$\c6LJu%HJ2I"E:Z{B/fg_@mHef36H7'+g7x,RU86Ddm^>:"
